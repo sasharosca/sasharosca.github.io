@@ -27,8 +27,16 @@ url: "https://sasharosca.com" # the base hostname & protocol for your site, e.g.
 twitter_username: sasharosca
 github_username:  sasharosca
 
+author:
+  name: "Sasha Rosca"
+
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
+
 # Build settings
-theme: minima
+plugins:
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
